@@ -1,13 +1,15 @@
 {
   "main.css": "/coligo/static/css/main.e35cada5.chunk.css",
-  "main.js": "/coligo/static/js/main.cdd980c9.chunk.js",
-  "main.js.map": "/coligo/static/js/main.cdd980c9.chunk.js.map",
+  "main.js": "/coligo/static/js/main.eaf4dbd8.chunk.js",
+  "main.js.map": "/coligo/static/js/main.eaf4dbd8.chunk.js.map",
   "runtime~main.js": "/coligo/static/js/runtime~main.5ffaf806.js",
   "runtime~main.js.map": "/coligo/static/js/runtime~main.5ffaf806.js.map",
-  "static/js/2.65aa1cca.chunk.js": "/coligo/static/js/2.65aa1cca.chunk.js",
-  "static/js/2.65aa1cca.chunk.js.map": "/coligo/static/js/2.65aa1cca.chunk.js.map",
+  "static/css/2.d1ad3bcf.chunk.css": "/coligo/static/css/2.d1ad3bcf.chunk.css",
+  "static/js/2.6895877b.chunk.js": "/coligo/static/js/2.6895877b.chunk.js",
+  "static/js/2.6895877b.chunk.js.map": "/coligo/static/js/2.6895877b.chunk.js.map",
   "index.html": "/coligo/index.html",
-  "precache-manifest.3f6e7248c8414fdfd9f32e9f33cdb55d.js": "/coligo/precache-manifest.3f6e7248c8414fdfd9f32e9f33cdb55d.js",
+  "precache-manifest.1dcb941cb4d968aca05fefb450e2d4a4.js": "/coligo/precache-manifest.1dcb941cb4d968aca05fefb450e2d4a4.js",
   "service-worker.js": "/coligo/service-worker.js",
+  "static/css/2.d1ad3bcf.chunk.css.map": "/coligo/static/css/2.d1ad3bcf.chunk.css.map",
   "static/css/main.e35cada5.chunk.css.map": "/coligo/static/css/main.e35cada5.chunk.css.map"
 }
