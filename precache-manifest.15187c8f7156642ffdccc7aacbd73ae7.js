@@ -8,23 +8,23 @@ self.__precacheManifest = [
     "url": "/coligo/static/js/runtime~main.5ffaf806.js"
   },
   {
-    "revision": "445df4039e3480d5cc94",
-    "url": "/coligo/static/js/main.fde1ad9e.chunk.js"
+    "revision": "5aa77305265b50611270",
+    "url": "/coligo/static/js/main.7d0855bb.chunk.js"
   },
   {
-    "revision": "2a2be286f349ae7e6f6d",
-    "url": "/coligo/static/js/2.c8be78c3.chunk.js"
+    "revision": "1c3e1b522a43a8615260",
+    "url": "/coligo/static/js/2.8ec5e0c2.chunk.js"
   },
   {
-    "revision": "445df4039e3480d5cc94",
+    "revision": "5aa77305265b50611270",
     "url": "/coligo/static/css/main.e35cada5.chunk.css"
   },
   {
-    "revision": "2a2be286f349ae7e6f6d",
+    "revision": "1c3e1b522a43a8615260",
     "url": "/coligo/static/css/2.d1ad3bcf.chunk.css"
   },
   {
-    "revision": "6a059017d77195390c5c2aaf0439c5b8",
+    "revision": "8ce7851b823ed4c04866311be719bf41",
     "url": "/coligo/index.html"
   }
 ];
