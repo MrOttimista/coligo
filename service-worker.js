@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/coligo/precache-manifest.894a9f58cfaf01b80ec2801c8098ec32.js"
+  "/coligo/precache-manifest.c591e9ecae7c39085b3193ff8f31a480.js"
 );
 
 workbox.clientsClaim();
