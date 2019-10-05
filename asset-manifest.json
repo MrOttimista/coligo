@@ -1,15 +1,18 @@
 {
-  "main.css": "/coligo/static/css/main.6f23608a.chunk.css",
-  "main.js": "/coligo/static/js/main.803e75f4.chunk.js",
-  "main.js.map": "/coligo/static/js/main.803e75f4.chunk.js.map",
-  "runtime~main.js": "/coligo/static/js/runtime~main.5ffaf806.js",
-  "runtime~main.js.map": "/coligo/static/js/runtime~main.5ffaf806.js.map",
-  "static/css/2.d1ad3bcf.chunk.css": "/coligo/static/css/2.d1ad3bcf.chunk.css",
-  "static/js/2.1e4fda16.chunk.js": "/coligo/static/js/2.1e4fda16.chunk.js",
-  "static/js/2.1e4fda16.chunk.js.map": "/coligo/static/js/2.1e4fda16.chunk.js.map",
-  "index.html": "/coligo/index.html",
-  "precache-manifest.c591e9ecae7c39085b3193ff8f31a480.js": "/coligo/precache-manifest.c591e9ecae7c39085b3193ff8f31a480.js",
-  "service-worker.js": "/coligo/service-worker.js",
-  "static/css/2.d1ad3bcf.chunk.css.map": "/coligo/static/css/2.d1ad3bcf.chunk.css.map",
-  "static/css/main.6f23608a.chunk.css.map": "/coligo/static/css/main.6f23608a.chunk.css.map"
+  "files": {
+    "main.css": "/coligo/static/css/main.74e9026a.chunk.css",
+    "main.js": "/coligo/static/js/main.ba53e7fb.chunk.js",
+    "main.js.map": "/coligo/static/js/main.ba53e7fb.chunk.js.map",
+    "runtime~main.js": "/coligo/static/js/runtime~main.5ffaf806.js",
+    "runtime~main.js.map": "/coligo/static/js/runtime~main.5ffaf806.js.map",
+    "static/css/2.802837ff.chunk.css": "/coligo/static/css/2.802837ff.chunk.css",
+    "static/js/2.65ee616e.chunk.js": "/coligo/static/js/2.65ee616e.chunk.js",
+    "static/js/2.65ee616e.chunk.js.map": "/coligo/static/js/2.65ee616e.chunk.js.map",
+    "index.html": "/coligo/index.html",
+    "precache-manifest.b535bce0da53a958bca31b224b7bcf73.js": "/coligo/precache-manifest.b535bce0da53a958bca31b224b7bcf73.js",
+    "service-worker.js": "/coligo/service-worker.js",
+    "static/css/2.802837ff.chunk.css.map": "/coligo/static/css/2.802837ff.chunk.css.map",
+    "static/css/main.74e9026a.chunk.css.map": "/coligo/static/css/main.74e9026a.chunk.css.map",
+    "static/media/desk.svg": "/coligo/static/media/desk.cf1b3e8a.svg"
+  }
 }
