@@ -13,6 +13,12 @@ class HomePage extends Component{
   render(){
     return(
       <div>
+<<<<<<< HEAD
+=======
+
+		  {console.log("Home")}
+
+>>>>>>> fc80e57c0db56736c74dd48b246eb85a7e29f853
       <Row style={{width:"100%",minHeight:"300px",marginBottom:"10px"}} className={"particles"}>
       <div style={{textAlign:"center",position:"absolute",top:"30%",zIndex:"150",width:"100%",pointerEvents:"none"}}>
       <h1 style={{color:"white",textAlign:"center",fontWeight:"bold",fontSize:"60px"}}>Road Trax</h1>
