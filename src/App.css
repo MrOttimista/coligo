@@ -87,3 +87,7 @@ border-radius:50px;
 -moz-border-radius:50px;
 -webkit-border-radius:50px;
 }
+
+.particles{
+  background: linear-gradient(45deg, rgb(45, 54, 76) 0%, rgb(37, 45, 63) 100%);
+}

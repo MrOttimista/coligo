@@ -1,9 +1,11 @@
 import React, { Component } from 'react';
 import 'antd/dist/antd.css';
-import { Row,Col,Button,Icon } from 'antd';
-import desk from "./desk.svg";
-import Announcements from "./Announcements";
-import TimeTable from "./TimeTable";
+import { Row} from 'antd';
+import Particles from 'react-particles-js';
+import Songs from "./songs.js";
+import TopSongs from './topSongs.js';
+import Roads from './roads';
+
 
 
 class HomePage extends Component{
@@ -11,27 +13,71 @@ class HomePage extends Component{
   render(){
     return(
       <div>
-      <Row style={{width:"92%",minHeight:"300px",backgroundColor:"white",marginBottom:"10px"}}>
-        <Col span={12}>
-        <h1 style={{textAlign:"left",fontSize:"40px",paddingLeft:"10px"}}>EXAMS TIME </h1>
-        <h3 style={{textAlign:"left",fontSize:"18px",paddingLeft:"10px"}}>Here we are,Are you ready to fight? Don't worry, we prepared some tips to be ready for your Exams.</h3>
+      <Row style={{width:"100%",minHeight:"300px",marginBottom:"10px"}} className={"particles"}>
+      <div style={{textAlign:"center",position:"absolute",top:"30%",zIndex:"150",width:"100%",pointerEvents:"none"}}>
+      <h1 style={{color:"white",textAlign:"center",fontWeight:"bold",fontSize:"60px"}}>Road Trax</h1>
+      <h3 style={{color:"white",textAlign:"center",fontSize:"50px",fontFamily: "Lucida Typewriter",paddingTop:"90px"}}>  Add fun to your Roads, Dive into the best music</h3>
+      <h3 style={{color:"white",textAlign:"center",fontSize:"30px",fontFamily: "Courier New"}}>  Diffrent Roads but best Music </h3>
 
-        <h3 style={{color:"gray",paddingTop:"100px",fontSize:"18px",paddingLeft:"8px"}}><i>"Nothing happens untill something moves" ~ Albert Enistine </i></h3>
-        <span style={{paddingLeft:"50px"}}> <Button type="primary" shape="round" size={"large"} style={{width:"250px",height:"50px"}}>View Exams Tips</Button></span>
-        </Col>
-        <Col span={12} style={{textAlign:"right"}}>
-        <img width={"100%"} src={desk}  />
-        </Col>
-      </Row>
+      </div>
+    <Particles
+    params={{
+	    "particles": {
+	        "number": {
+	            "value": 260,
+	            "density": {
+	                "enable": false
+	            }
+	        },
+	        "size": {
+	            "value": 3,
+	            "random": true,
+	            "anim": {
+	                "speed": 5,
+	                "size_min": 0.5
+	            }
+	        },
+	        "line_linked": {
+	            "enable": false
+	        },
+	        "move": {
+	            "random": true,
+	            "speed": 1,
+	            "direction": "top",
+	            "out_mode": "out"
+	        }
+	    },
+	    "interactivity": {
+	        "events": {
+	            "onhover": {
+	                "enable": true,
+	                "mode": "bubble"
+	            },
+	            "onclick": {
+	                "enable": true,
+	                "mode": "repulse"
+	            }
+	        },
+	        "modes": {
+	            "bubble": {
+	                "distance": 250,
+	                "duration": 2,
+	                "size": 0,
+	                "opacity": 0
+	            },
+	            "repulse": {
+	                "distance": 400,
+	                "duration": 4
+	            }
+	        }
+	    }
+	}} />
+                      </Row>
 
-    <Row style={{width:"92%",marginTop:"30px"}}>
-      <Col span={18}>
-           <Announcements />
-      </Col>
-      <Col span={6}>
-        <TimeTable />
-      </Col>
-      </Row>
+
+      <Songs />
+     <TopSongs />
+		<Roads />
       </div>
     )
   }
