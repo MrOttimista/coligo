@@ -16,6 +16,7 @@ class HomePage extends Component{
 
 		  {console.log("Home")}
 		  {console.log("test1")}
+		  {console.log("test2")}
 
       <Row style={{width:"100%",minHeight:"300px",marginBottom:"10px"}} className={"particles"}>
       <div style={{textAlign:"center",position:"absolute",top:"30%",zIndex:"150",width:"100%",pointerEvents:"none"}}>
