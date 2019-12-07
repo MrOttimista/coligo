@@ -13,6 +13,9 @@ class HomePage extends Component{
   render(){
     return(
       <div>
+
+		  {console.log("Home")}
+
       <Row style={{width:"100%",minHeight:"300px",marginBottom:"10px"}} className={"particles"}>
       <div style={{textAlign:"center",position:"absolute",top:"30%",zIndex:"150",width:"100%",pointerEvents:"none"}}>
       <h1 style={{color:"white",textAlign:"center",fontWeight:"bold",fontSize:"60px"}}>Road Trax</h1>
